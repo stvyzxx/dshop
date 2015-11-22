@@ -1,0 +1,759 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+    <title>DEMOSHOP</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+</head>
+
+  <body>
+
+    <!-- header -->
+    <header>
+      
+      <!-- header top -->
+      <div id="top-menu">
+        <div id="menu-wrap" class="container">
+          <div class="row">
+
+            <div class="menu-languages col-3">
+               <a class="selected-lang" href="#">рус</a><a href="#">укр</a>
+            </div>
+            
+            <div class="menu-info col-4">
+               <ul>
+                  <li><a href="#">О нас</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">Способы заказа</a></li>
+               </ul>
+            </div>
+            
+            <div class="menu-phones col-3">
+              <img class="img-valign" src="images/phone.png" alt="phone">
+              <span>066 122-17-67</span>
+              <span>066 122-17-67</span>
+            </div>
+            
+            <div class="menu-enroll col-2">
+              <img class="img-valign" src="images/lock.png" alt="phone">
+              <a href="#">Вход</a> / <a href="#">Регистрация</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+       
+      <!-- header bottom -->
+      <div id="bottom-menu">
+        <div class="container">
+          <div class="row">
+            
+            <!-- logo section -->
+            <div class="col-3 h-logo">
+              <h1><img src="images/logo.png" alt="logo"></h1>
+            </div>
+
+            <!-- search section -->
+            <div class="col-4 h-search">
+              <input type="text" name="search" placeholder="Пошук">
+              <input type="image" src="images/search.png" width="23">
+            </div>
+
+            <!-- info & bascet section -->
+            <div class="col-3 h-info">
+              <img src="images/clock.png" alt="time">
+              <div class="h-info-time">
+                  Пн‑Пт <span>09:00‑20:00</span><br>
+                  Сб <span>09:00‑17:00</span>, Вс выходной
+              </div>
+            </div>
+            
+            <div class="col-2 h-basket">
+               <a href="#" class="h-basket-icon">
+               </a> 
+              <div class="h-basket-text">
+                    <a href="#">Ваша корзина<br> 
+                    пуста</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div> 
+
+    </header>
+
+
+    <div class="wrapper container">
+      <div class="row">
+
+        <!-- sidebar -->
+        <aside class="col-3 sidebar">
+          <div class="sidebar-wrapper">
+            <div id="sidebar-header">
+              <span>КАТАЛОГ</span>
+            </div>
+            <ul class="sidebar-catalog">
+              <li>
+                <a href="#">Беспроводное оборудование</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Беспроводные мосты</a></li>
+                  <li><a href="#">Wi-Fi Адаптеры</a></li>
+                  <li><a href="#">Wi-Fi Роутеры</a></li>
+                  <li><a href="#">RouterBoard Mikrotik</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Грозозащиты</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Антенны Wi-Fi</a></li>
+                  <li><a href="#">Точки доступа Wi-Fi</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Программное обеспечение</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Антенны Wi-Fi</a></li>
+                  <li><a href="#">Точки доступа Wi-Fi</a></li>
+                  <li><a href="#">Базовые станции</a></li>
+                  <li><a href="#">Клиентские комплекты оборудования</a></li>
+                  <li><a href="#">Беспроводные мосты</a></li>
+                  <li><a href="#">Wi-Fi Адаптеры</a></li>
+                  <li><a href="#">Wi-Fi Роутеры</a></li>
+                  <li><a href="#">RouterBoard Mikrotik</a></li>
+                  <li><a href="#">Крепления, Адаптеры, Колпаки</a></li>
+                  <li><a href="#">Аксессуары</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Бесперебойное питание</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Беспроводные мосты</a></li>
+                  <li><a href="#">Wi-Fi Адаптеры</a></li>
+                  <li><a href="#">Wi-Fi Роутеры</a></li>
+                  <li><a href="#">RouterBoard Mikrotik</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">GPON/GEPON</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Крепления, Адаптеры, Колпаки</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Активное оптоволоконное оборудование</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Крепления, Адаптеры, Колпаки</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Пассивное оптоволоконное оборудование</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Базовые станции</a></li>
+                  <li><a href="#">Клиентские комплекты оборудования</a></li>
+                  <li><a href="#">Беспроводные мосты</a></li>
+                  <li><a href="#">Wi-Fi Адаптеры</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Коммутаторы, роутеры, сетевые карты</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Крепления, Адаптеры, Колпаки</a></li>
+                  <li><a href="#">Аксессуары</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Кабельная продукция</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">RouterBoard Mikrotik</a></li>
+                  <li><a href="#">Крепления, Адаптеры, Колпаки</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Инструменты и прибори</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Клиентские комплекты оборудования</a></li>
+                  <li><a href="#">Беспроводные мосты</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Шкафы, стойки, аксессуари</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Точки доступа Wi-Fi</a></li>
+                  <li><a href="#">Базовые станции</a></li>
+                  <li><a href="#">Клиентские комплекты оборудования</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Видеонаблюдение</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Базовые станции</a></li>
+                  <li><a href="#">Клиентские комплекты оборудования</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">IPTV</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Клиентские комплекты оборудования</a></li>
+                  <li><a href="#">Беспроводные мосты</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Умный дом</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">RouterBoard Mikrotik</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Устройства VoIP</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Wi-Fi Роутеры</a></li>
+                  <li><a href="#">RouterBoard Mikrotik</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Межсетевые екраны и шлюзы безопасности</a>
+                <ul class="sidebar-popup">
+                  <li><a href="#">Wi-Fi Адаптеры</a></li>
+                  <li><a href="#">Wi-Fi Роутеры</a></li>
+                  <li><a href="#">RouterBoard Mikrotik</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>  
+        </aside>
+        
+        <!-- main -->
+        <div class="col-9 main">
+
+          <!-- banner -->
+          <div class="row banner">
+            <a href="#"><img src="images/banner1.jpg" alt="banner"></a>
+            <a href="#"><img src="images/banner2.jpg" alt="banner"></a>
+            <a href="#"><img src="images/banner3.jpg" alt="banner"></a>
+          </div>
+          
+          <!-- offers -->
+          <div class="top-offers">
+            <div class="offer-options">
+               <div class="offer-type">
+                 
+                  <div class="top-link active-offer">
+                      <a href="#">Топ продаж</a>
+                  </div>
+                  
+                  <div class="spec-link">
+                      <a href="#">Спецпредложение</a>
+                  </div>       
+                       
+               </div>
+                <div class="offer-nav">
+                    <a href="#" class="nav-prev b-gradient"></a>
+                    <a href="#" class="nav-next b-gradient"></a>
+                </div>
+            </div>
+            <div class="products">
+              
+              <!-- slider -->
+               <ul id="offerSlider">
+                   <!-- product 1 -->
+                    <li class="product-box">
+                        <div class="product-images top-product">
+                            <img src="images/goods/offer_1.jpg" alt="product">
+                        </div>
+                        <div class="product-info">
+                            <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                            <div class="uah-price">2 472 <span>грн.</span></div>
+                            <div class="usd-price">1 720 <span> $</span></div>
+                        </div>     
+                    </li>
+
+                    <!-- product 2 -->
+                    <li class="product-box">
+                        <div class="product-images top-product action-product">
+                            <img src="images/goods/offer_2.jpg" alt="product">
+                        </div>
+                        <div class="product-info">
+                            <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                            <div class="prev-price"><span>3 472</span> грн.</div>
+                            <div class="uah-price">2 472 <span>грн.</span></div>
+                            <div class="usd-price">1 720 <span> $</span></div>
+                        </div>     
+                    </li>
+
+                    <!-- product 3 -->
+                    <li class="product-box">
+                        <div class="product-images top-product">
+                            <img src="images/goods/offer_3.jpg" alt="product">
+                        </div>
+                        <div class="product-info">
+                            <a class="product-name" href="#">D-Link DIR-300/NRU</a>
+                            <div class="uah-price">2 472 <span>грн.</span></div>
+                            <div class="usd-price">1 720 <span> $</span></div>
+                        </div>     
+                    </li>
+
+                    <!-- product 4 -->
+                    <li class="product-box">
+                        <div class="product-images top-product">
+                            <img src="images/goods/offer_4.jpg" alt="product">
+                        </div>
+                        <div class="product-info">
+                            <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                            <div class="uah-price">2 472 <span>грн.</span></div>
+                            <div class="usd-price">1 720 <span> $</span></div>
+                        </div>     
+                    </li>
+
+                    <!-- product 5 -->
+                    <li class="product-box">
+                        <div class="product-images top-product">
+                            <img src="images/goods/offer_1.jpg" alt="product">
+                        </div>
+                        <div class="product-info">
+                            <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                            <div class="uah-price">2 472 <span>грн.</span></div>
+                            <div class="usd-price">1 720 <span>$</span></div>
+                        </div>     
+                    </li>
+                    
+                    <!-- product 6 -->
+                    <li class="product-box">
+                        <div class="product-images top-product">
+                            <img src="images/goods/offer_4.jpg" alt="product">
+                        </div>
+                        <div class="product-info">
+                            <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                            <div class="uah-price">2 472 <span>грн.</span></div>
+                            <div class="usd-price">1 720 <span> $</span></div>
+                        </div>     
+                    </li>
+                    
+                    <!-- product 7 -->
+                    <li class="product-box">
+                        <div class="product-images top-product action-product">
+                            <img src="images/goods/offer_2.jpg" alt="product">
+                        </div>
+                        <div class="product-info">
+                            <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                            <div class="prev-price"><span>3 472</span> грн.</div>
+                            <div class="uah-price">2 472 <span>грн.</span></div>
+                            <div class="usd-price">1 720 <span> $</span></div>
+                        </div>     
+                    </li>
+                </ul>
+                <!-- slider -->
+            </div>
+          </div>
+          
+          <!-- top brands -->
+          <div class="top-brands">
+            <div class="h-brands">Топовые бренды</div>
+            <div class="brands-wrap">
+              <div class="brand-logo">
+                <a href="#" ><img src="images/brands/mikrotik.png" alt=""></a>
+              </div>
+              <div class="brand-logo">
+                <a href="#" ><img src="images/brands/tp-link.png" alt=""></a>
+              </div>
+              <div class="brand-logo">
+                <a href="#" ><img src="images/brands/d-link.png" alt=""></a>
+              </div>
+              <div class="brand-logo">
+                <a href="#" ><img src="images/brands/bdcm.png" alt=""></a>
+              </div>
+              <div class="brand-logo">
+                <a href="#" ><img src="images/brands/d-link.png" alt=""></a>
+              </div>
+              <div class="brand-logo">
+                <a href="#" ><img src="images/brands/mikrotik.png" alt=""></a>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+   
+    <!--shop info -->   
+    <div class="shop-info">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-6">
+            <h5>Интернет магазин DemoShop</h5>
+            <p>
+              Посещая наш интернет магазин Demoshop, вы не только сэкономите свое время, но и приобретете то что вам нужно, а также получите товар в кротчайшие сроки по всей стране с помощью курьерских служб. На все оборудование распространяется гарантийное обслуживание. Также вы можете отремонтировать вышедшее из строя оборудование, даже если гарантия на него закончилась.
+            </p>
+            <div class="info-button b-gradient"><a href="#">Подробнее...</a></div>
+          </div>
+
+          <div class="col-6 shop-advantages">
+            <h5>Наши преимущества</h5>
+
+            <div class="shop-benefits">
+              <div class="benefit-icon i-time"></div>
+              <div class="benefit-text">Круглосуточный прием автоматической системой электронных заявок</div>
+            </div>
+            <div class="shop-benefits">
+              <div class="benefit-icon i-man"></div>
+              <div class="benefit-text">Индивидуальный подход к каждому клиенту</div>              
+            </div>
+            <div class="shop-benefits">
+              <div class="benefit-icon i-flag"></div>
+              <div class="benefit-text">Широчайший ассортимент мировых брендов в различных ценовых категориях</div>              
+            </div>
+            <div class="shop-benefits">
+              <div class="benefit-icon i-diamond"></div>
+              <div class="benefit-text">Гибкая система дифференцированных скидок</div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- last viewed -->
+    <div class="container viewed">
+        <div class="row">
+            <h5 class="col-11 section-title">Ранее Вы просматривали</h5>
+            <div class="col-1 section-nav">
+                <a href="#" id="viewed-prev" class="prev-viewed"></a>
+                <a href="#" id="viewed-next" class="next-viewed"></a>
+            </div>
+        </div>
+        
+        
+        <div class="row viewed-goods">
+          
+           <!-- slider -->
+            <ul id="viewedSlider">
+                <!-- product 1 -->
+                <li class="product-box">
+                    <div class="product-images">
+                        <img src="images/goods/offer_1.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+
+                <!-- product 2 -->
+                <li class="product-box">
+                    <div class="product-images top-product">
+                        <img src="images/goods/offer_2.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+
+                <!-- product 3 -->
+                <li class="product-box">
+                    <div class="product-images">
+                        <img src="images/goods/offer_1.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+
+                <!-- product 4 -->
+                <li class="product-box">
+                    <div class="product-images action-product">
+                        <img src="images/goods/offer_5.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+
+                <!-- product 5 -->
+                <li class="product-box">
+                    <div class="product-images">
+                        <img src="images/goods/offer_6.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+
+                <!-- product 6 -->
+                <li class="product-box">
+                    <div class="product-images">
+                        <img src="images/goods/offer_3.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+
+                <!-- product 7 -->
+                <li class="product-box">
+                    <div class="product-images">
+                        <img src="images/goods/offer_1.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+                
+                <!-- product 8 -->
+                <li class="product-box">
+                    <div class="product-images">
+                        <img src="images/goods/offer_1.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+                
+                <!-- product 9 -->
+                <li class="product-box">
+                    <div class="product-images action-product">
+                        <img src="images/goods/offer_5.jpg" alt="product">
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name" href="#">D-Link DIR-300/NRU/
+    B70954 РХ 563</a>
+                        <div class="uah-price">2 472 <span>грн.</span></div>
+                        <div class="usd-price">1 720 <span> $</span></div>
+                    </div>     
+                </li>
+            </ul>    
+        </div>
+    </div>
+    
+    <!-- helpful articles -->
+    <div class="container helpful">
+        <div class="row">
+            <div class="col-9 section-title">Полезная информация</div>
+            <div class="col-2 read-all"><a href="#">Читать все</a></div>
+            <div class="col-1 section-nav">
+                <a href="#" id="prevArticle" class="prev-viewed"></a>
+                <a href="#" id="nextArticle" class="next-viewed"></a>
+            </div>
+        </div>
+        <div class="row helpful-articles">
+            <ul id="helpfulSlider">
+                <li class="col-3">
+                    <a href="#">Новые горизонты от 
+    <br>стандарта 802.11ac </a>
+                    <p>Основной акцент разработки – это Интернет-сервисы цифрового 
+    телевидения, количество которых постоянно растет </p>
+                </li>
+                <li class="col-3">
+                    <a href="#">AURA HD – мультимедиа-центр развлечений и помощник для всей семьи</a>
+                    <p>Основной акцент разработки – это Интернет-сервисы цифрового 
+    телевидения, количество которых постоянно растет </p>
+                </li>
+                <li class="col-3">
+                    <a href="#">Новые горизонты от 
+    <br>стандарта 802.11ac </a>
+                    <p>Основной акцент разработки – это Интернет-сервисы цифрового 
+    телевидения, количество которых постоянно растет </p>
+                </li>
+                <li class="col-3">
+                <a href="#">AURA HD – мультимедиа-центр развлечений и помощник для всей семьи</a>
+                <p>Основной акцент разработки – это Интернет-сервисы цифрового 
+телевидения, количество которых постоянно растет </p>
+            </li>
+                <li class="col-3">
+                <a href="#">AURA HD – мультимедиа-центр развлечений и помощник для всей семьи</a>
+                <p>Основной акцент разработки – это Интернет-сервисы цифрового 
+телевидения, количество которых постоянно растет </p>
+            </li>
+                <li class="col-3">
+                <a href="#">AURA HD – мультимедиа-центр развлечений и помощник для всей семьи</a>
+                <p>Основной акцент разработки – это Интернет-сервисы цифрового 
+телевидения, количество которых постоянно растет </p>
+            </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+
+        <div class="article-lists">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                         <ul>
+                             <li><a href="#">Беспроводное оборудование</a></li>
+                             <li><a href="#">Грозозащиты</a></li>
+                             <li><a href="#">Программное обеспечение</a></li>
+                             <li><a href="#">Бесперебойное питание </a></li>
+                         </ul>   
+                    </div>
+                    <div class="col-3">
+                         <ul>
+                             <li><a href="#">Активное оптоволоконное оборудование</a></li>
+                             <li><a href="#">Пассивное оптоволоконное оборудование</a> </li>
+                             <li><a href="#">Коммутаторы, роутеры, сетевые карты</a></li>
+                         </ul>   
+                    </div>
+                    <div class="col-3">
+                         <ul>
+                             <li><a href="#">Кабельная продукция</a></li>
+                             <li><a href="#">Инструменты и приборы</a></li>
+                             <li><a href="#">Шкафы, стойки, аксессуары</a></li>
+                             <li><a href="#">Видеонаблюдение </a></li>
+                         </ul>   
+                    </div>
+                    <div class="col-3">
+                         <ul>
+                             <li><a href="#">IPTV</a></li>
+                             <li><a href="#">Умный дом</a></li>
+                             <li><a href="#">Устройства VoIP </a></li>
+                             <li><a href="#">Межсетевые экраны и шлюзы безопасности </a></li>
+                         </ul>   
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="container footer-nav">
+            <div class="col-2 social-icons">
+                <a class="i-facebook" href="#"></a>
+                <a class="i-vk" href="#"></a>
+            </div>
+            <div class="col-10 footer-menu">
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Способы заказа</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+               <div class="row">   
+                    <div class="col-9 footer-copy">© DemoShop, 2015 </div>
+                    <div class="col-3 footer-developer">Дизайн и проектирование — <a href="#">Отакої.ком</a></div>
+               </div>    
+            </div>    
+        </div>
+
+    </footer>
+
+    <script type="text/javascript">
+        
+      $(document).ready(function() {
+          
+        /* offer slider */  
+        var offerS = $("#offerSlider").lightSlider({
+            item: 5,
+            autoWidth: false,
+            auto: true,
+            pauseOnHover: true,
+            loop: true,
+            adaptiveHeight: true,
+            speed: 400,
+            pause: 4000,
+            addClass: "offerSlideWrap"
+                  
+        });
+          
+        $('.nav-prev').click(function(){
+            offerS.goToPrevSlide(); 
+        });
+        $('.nav-next').click(function(){
+            offerS.goToNextSlide(); 
+        });
+          
+        /* viewed slider */  
+        var viewedS = $("#viewedSlider").lightSlider({
+            item: 7,
+            autoWidth: false,
+            auto: true,
+            pauseOnHover: true,
+            loop: true,
+            adaptiveHeight: true,
+            speed: 400,
+            pause: 4000,
+            addClass: "viewedSlideWrap"
+                  
+        });
+          
+        $('#viewed-prev').click(function(){
+            viewedS.goToPrevSlide(); 
+        });
+        $('#viewed-next').click(function(){
+            viewedS.goToNextSlide(); 
+        });  
+         
+        /* articles slider */  
+        var articleS = $("#helpfulSlider").lightSlider({
+            item: 4,
+            autoWidth: false,
+            auto: false,
+            loop: true,
+            adaptiveHeight: true,
+            speed: 400,
+            pause: 4000,
+            slideMargin: 0
+                  
+        });
+          
+        $('#prevArticle').click(function(){
+            articleS.goToPrevSlide(); 
+        });
+          
+        $('#nextArticle').click(function(){
+            articleS.goToNextSlide(); 
+        });
+          
+      });    
+      var aElems = document.getElementsByTagName('a');
+      for(var i = 0; i<aElems.length; i++){
+        aElems[i].onclick = function(){
+          return false;
+        };
+      }
+    </script>        
+  </body>
+
+</html>
